@@ -1,0 +1,62 @@
+[
+  {
+    "CLASSNAME": "IncomingTransfer",
+    "INSTANCE": {
+      "sender": "Sender",
+      "recipient": "Empfaenger",
+      "date": "30.09.1994",
+      "amount": 30.2,
+      "description": "Incoming-Test 1"
+    }
+  },
+  {
+    "CLASSNAME": "OutgoingTransfer",
+    "INSTANCE": {
+      "sender": "Sender",
+      "recipient": "Empfaenger",
+      "date": "01.10.2000",
+      "amount": 50.0,
+      "description": "Outgoing-Test 1"
+    }
+  },
+  {
+    "CLASSNAME": "Payment",
+    "INSTANCE": {
+      "incomingInterest": 0.2,
+      "outgoingInterest": 0.1,
+      "date": "08.11.2022",
+      "amount": -50.0,
+      "description": "Payment-Test Negative 1"
+    }
+  },
+  {
+    "CLASSNAME": "Payment",
+    "INSTANCE": {
+      "incomingInterest": 0.2,
+      "outgoingInterest": 0.1,
+      "date": "09.11.2022",
+      "amount": -60.0,
+      "description": "Payment-Test Negative 2"
+    }
+  },
+  {
+    "CLASSNAME": "Payment",
+    "INSTANCE": {
+      "incomingInterest": 0.2,
+      "outgoingInterest": 0.1,
+      "date": "08.11.2022",
+      "amount": 10.0,
+      "description": "Payment-Test Positiv 1"
+    }
+  },
+  {
+    "CLASSNAME": "Payment",
+    "INSTANCE": {
+      "incomingInterest": 0.2,
+      "outgoingInterest": 0.1,
+      "date": "09.11.2022",
+      "amount": 20.0,
+      "description": "Payment-Test Positiv 2"
+    }
+  }
+]
